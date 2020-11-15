@@ -1,5 +1,11 @@
 {
     "python.pythonPath": "C:\\Users\\rosis\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }
