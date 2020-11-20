@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 arquivo_novo = pd.read_excel('Dados/casas_98058.xlsx')
 
 
+
 def class_output(x):  #criando uma função para agregar os valores do output
     if(x<-0.5):
         return 0
@@ -119,6 +120,20 @@ arquivo_novo['zscore_yr_built']  = zscore_yr_built #Incluindo zscore no DF backu
 
 arquivo_novo['yr_built_discretizado'] = arquivo_novo['zscore_yr_built'].apply(class_output_sqft)
 
+# Separando as 10 últimas linhas para usar como autoavaliação ao final do desenvolvimento do chatbot
+autoavaliacao = arquivo_novo.tail(10)
+
+# Eliminando as 10 ultimas linhas para não serem mais usadas durante a criação do chatbot
+arquivo_novo = arquivo_novo[:-10]
+
+# Exportando os dados das casas para processo de construção do chatbot como 'CasasTop.csv'
+#arquivo_novo.to_csv(r'CasasTop.csv', index=False)
+
+# Exportando as 10 casas para serem usadas na autoavaliação do chatbot
+autoavaliacao.drop(['zscore_sqft_living','zscore_sqft_lot', 'zscore_bedrooms','zscore_bathrooms', 'zscore_floors', 'zscore_view', 'zscore_grade', 'zscore_yr_built', 'zscore_yr_renovated', 'zscore', 'price','bedrooms', 'bathrooms', 'sqft_living','sqft_lot', 'floors','view', 'condition','grade', 'sqft_above', 
+'sqft_basement','yr_built','yr_renovated',	'preco_area_construida','zipcode'], axis='columns', inplace=True)
+autoavaliacao.to_csv(r'autoavaliacao.csv', index=False)
+
 #Discretizando Sqft_Living
 # sqft_livingT=[]
 
@@ -137,6 +152,6 @@ arquivo_novo['yr_built_discretizado'] = arquivo_novo['zscore_yr_built'].apply(cl
 
 #arquivo_novo.to_csv(r'Dados/casas_98058_tratada.csv', index=False)
 
-arquivo_novo.drop(['zscore_sqft_living','zscore_sqft_lot', 'zscore_bedrooms','zscore_bathrooms', 'zscore_floors', 'zscore_view', 'zscore_grade', 'zscore_yr_built', 'zscore_yr_renovated'], axis='columns', inplace=True)
+arquivo_novo.drop(['zscore_sqft_living','zscore_sqft_lot', 'zscore_bedrooms','zscore_bathrooms', 'zscore_floors', 'zscore_view', 'zscore_grade', 'zscore_yr_built', 'zscore_yr_renovated', 'zscore'], axis='columns', inplace=True)
 
 arquivo_novo.to_csv(r'Dados/VAI_DAR_CERTO.csv', index=False)
