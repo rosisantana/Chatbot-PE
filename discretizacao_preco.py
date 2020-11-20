@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.cluster import KMeans
 #from sklearn.model_selection import train_test_split
 
+# Discretizando Preço
 pricesT=[]
 
 arquivo = pd.read_excel('Dados/casas_98058.xlsx')
@@ -18,6 +19,9 @@ for price in prices:
 
 arquivo['valores_discretizados']=prices_disc
 
-arquivo.to_csv(r'Dados/casas_98058_tratada.csv', index=False)
+
+
+
+
 
 
