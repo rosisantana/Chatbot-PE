@@ -1,0 +1,42 @@
+ID,Pergunta,A,No A,B,No B
+1,O sqft living e <= 0.5 ?,SIM,2,nao,3
+2,yr_renovated e <= 1.5?,SIM,4,nao,5
+3,sqft_living <= 1.5 ?,SIM,6,nao,7
+4,Grade <= 0.5 ?,SIM,8,nao,9
+5,NO FOLHA,Preco da casa esta acima da media,,,
+6,Grade <= 0.5 ?,SIM,10,nao,11
+7,Grade <= 1.5 ?,SIM,12,nao,13
+8,Bedrooms <= 1.0,SIM,14,nao,15
+9,NO FOLHA,Preco da casa esta acima da media,,,
+10,yr_built < = 1.5 ?,SIM,16,nao,17
+11,Floors <= 0.5?,SIM,18,nao,19
+12,sqft_lot <= 1.5 ?,SIM,20,nao,21
+13,sqft_lot <= 1.5 ?,SIM,22,nao,23
+14,Bathrooms <= 0.5,SIM,24,nao,25
+15,NO FOLHA,Preco da casa esta acima da media,,,
+16,Bathrooms <= 1.5,SIM,26,nao,27
+17,NO FOLHA,Preco da casa esta na media,,,
+18,yr_built < = 1.5 ?,SIM,28,nao,29
+19,NO FOLHA,Preco da casa esta na media,,,
+20,Grade <= 0.5 ?,SIM,30,nao,31
+21,NO FOLHA,Preco da casa esta acima da media,,,
+22,NO FOLHA,Preco da casa esta na media,,,
+23,NO FOLHA,Preco da casa esta abaixo da media,,,
+24,NO FOLHA,Preco da casa esta acima da media,,,
+25,NO FOLHA,Preco da casa esta na media,,,
+26,Floors <= 0.5?,SIM,32,nao,33
+27,NO FOLHA,Preco da casa esta abaixo da media,,,
+28,yr_built < = 0.5?,SIM,34,nao,35
+29,NO FOLHA,Preco da casa esta acima da media,,,
+30,NO FOLHA,Preco da casa esta abaixo da media,,,
+31,yr_built < = 1.5 ?,SIM,36,nao,37
+32,NO FOLHA,Preco da casa esta na media,,,
+33,NO FOLHA,Preco da casa esta abaixo da media,,,
+34,NO FOLHA,Preco da casa esta na media,,,
+35,Bedrooms <= 1.0,SIM,38,nao,39
+36,NO FOLHA,Preco da casa esta abaixo da media,,,
+37,NO FOLHA,Preco da casa esta abaixo da media,,,
+38,Bathrooms <= 0.5,SIM,40,nao,41
+39,NO FOLHA,Preco da casa esta na media,,,
+40,NO FOLHA,Preco da casa esta na media,,,
+41,NO FOLHA,Preco da casa esta na media,,,
