@@ -17,7 +17,7 @@ class Tree():
         else:
             return False
 
-texto = pd.read_csv("arvore_nova_autoavaliacao.csv", sep=';',index_col="ID")
+texto = pd.read_csv("arvore_final.csv", sep=';',index_col="ID")
 
 def rec_build_tree(linha):
     row = texto.loc[linha]
@@ -68,7 +68,9 @@ while True:
             break
         else:
             arvore = answer 
-            
+
+    print("-------------------------------------\n\n") 
+
     print(answer)
                 
-    print("-------------------------------------")
+    print("\n\n-------------------------------------")

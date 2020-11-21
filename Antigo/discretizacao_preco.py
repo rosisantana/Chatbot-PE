@@ -1,8 +1,6 @@
 import pandas as pd
 from sklearn.cluster import KMeans
-#from sklearn.model_selection import train_test_split
 
-# Discretizando Preço
 pricesT=[]
 
 arquivo = pd.read_excel('Dados/casas_98058.xlsx')

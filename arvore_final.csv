@@ -1,0 +1,40 @@
+ID;Pergunta;A;No A;B;No B
+1;A area util e menor ou igual 0.5 ?  ;sim;2;nao;3
+2;O ano de renovacao da casa e menor ou igual a 1.5?  ;sim;4;nao;5
+3;A area util e menor ou igual 1.5 ?  ;sim;6;nao;7
+4;A qualidade dos materiais utilizados na construcao e menor ou igual 0.5 ?  ;sim;8;nao;9
+5;NO FOLHA;Ola! O preco dessa casa esta acima da media;;;
+6;A qualidade dos materiais utilizados na construcao e menor ou igual 0.5 ?  ;sim;10;nao;11
+7;A qualidade dos materiais utilizados na construcao e menor ou igual 1.5 ?  ;sim;12;nao;13
+8;A quantidade de quartos e menor ou igual a 1.0?  ;sim;14;nao;15
+9;NO FOLHA;Ola! O preco dessa casa esta acima da media;;;
+10;O ano de construcao da casa e menor ou igual a 1.5?  ;sim;16;nao;17
+11;A quantidade de andares e menor ou igual 0.5?  ;sim;18;nao;19
+12;A area total do terreno e menor ou igual a 1.5 ?;sim;20;nao;21
+13;A area total do terreno e menor ou igual a 1.5 ?;sim;22;nao;23
+14;A quantidade de banheiros e menor ou igual a 0.5?  ;sim;24;nao;25
+15;NO FOLHA;Ola! O preco dessa casa esta na media;;;
+16;A quantidade de banheiros e menor ou igual a 1.5?  ;sim;26;nao;27
+17;NO FOLHA;Ola! O preco dessa casa esta na media;;;
+18;A quantidade de quartos e menor ou igual a 1.0?  ;sim;28;nao;29
+19;NO FOLHA;Ola! O preco dessa casa esta na media;;;
+20;NO FOLHA;Ola! O preco dessa casa esta abaixo da media;;;
+21;NO FOLHA;Ola! O preco dessa casa esta acima da media;;;
+22;NO FOLHA;Ola! O preco dessa casa esta na media;;;
+23;NO FOLHA;Ola! O preco dessa casa esta abaixo da media;;;
+24;NO FOLHA;Ola! O preco dessa casa esta acima da media;;;
+25;NO FOLHA;Ola! O preco dessa casa esta na media;;;
+26;A quantidade de andares e menor ou igual 0.5?  ;sim;30;nao;31
+27;NO FOLHA;Ola! O preco dessa casa esta abaixo da media;;;
+28;A quantidade de banheiros e menor ou igual a 0.5?  ;sim;32;nao;33
+29;NO FOLHA;Ola! O preco dessa casa esta na media;;;
+30;O ano de construcao da casa e menor ou igual a 0.5?  ;sim;34;nao;35
+31;NO FOLHA;Ola! O preco dessa casa esta abaixo da media;;;
+32;NO FOLHA;Ola! O preco dessa casa esta acima da media;;;
+33;O ano de construcao da casa e menor ou igual a 1.5?  ;sim;36;nao;37
+34;NO FOLHA;Ola! O preco dessa casa esta abaixo da media;;;
+35;A quantidade de quartos e menor ou igual a 1.0?  ;sim;38;nao;39
+36;NO FOLHA;Ola! O preco dessa casa esta na media;;;
+37;NO FOLHA;Ola! O preco dessa casa esta acima da media;;;
+38;NO FOLHA;Ola! O preco dessa casa esta na media;;;
+39;NO FOLHA;Ola! O preco dessa casa esta abaixo da media;;;
